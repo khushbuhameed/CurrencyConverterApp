@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:aliceblue;
+}
+.container{
+    min-height: 85vh;
+    /* background-color: red; */
+    max-width: 80vw;
+    margin: auto;
+}
+.container h1,h2{
+   margin:  23px 0;
+ 
+}
+.container form input[type='number'],select,label{
+     font-size: 25px;
+     margin-bottom: 23px;
+     width: 23vw;
+      border-radius: 8px;
+    
+}
+.btn{
+    width: 144px;
+    padding: 5px 8px;
+    background-color: rgb(76 58 76);
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+    /* font-size: 20px; */
+}
+
+.container form {
+    display: flex;
+    
+    flex-direction: column;
+}
+.container form label{
+    font-size: 25px;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    font-size: 17px;
+    background-color: rgb(188, 156, 218);
+    padding: 20px;
+    border-radius: 12px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+}
+nav li a:hover{
+   color: rgb(157, 62, 157);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin:  0 23px;
+}
+nav ul{
+    display: flex;
+
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.output{
+    display: none;
+}
+footer{
+    text-align: center;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
